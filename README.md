@@ -32,7 +32,6 @@ According to the dataset documentation:
 
 > 📝 *Each row represents a unique product with aggregated reviewer data stored as a comma-separated value. Each product is identified by a unique `Product ID`, and all review information for that product is consolidated into a single row.*
 
----
 
 ## 🔧 Data Cleaning Process using Excel
 
@@ -46,6 +45,7 @@ According to the dataset documentation:
 
 ```excel
 =PROPER(LEFT([@Product_Name], 40))
+```
 
 ### 🗂️ 3. Segmented Product Categories
 
