@@ -16,6 +16,42 @@ The main goal of this project was to analyze Amazon product data to uncover insi
 
 🔧 All pivot tables, charts, and calculations used in this analysis were created manually in Excel from this dataset.
 
+## 🧹 Amazon Product Data Cleaning
+
+This project started with cleaning a dataset sourced from Amazon product pages. The dataset includes key product attributes such as:
+
+- Product Name  
+- Category  
+- Price and Discount  
+- Ratings  
+- Customer Engagement  
+- User Reviews  
+- Product Status and Content  
+
+According to the dataset documentation:
+
+> 📝 *Each row represents a unique product with aggregated reviewer data stored as a comma-separated value. Each product is identified by a unique `Product ID`, and all review information for that product is consolidated into a single row.*
+
+---
+
+## 🔧 Data Cleaning Process using Excel
+
+### ✅ 1. Removed Duplicate Products
+- Verified and removed duplicate rows using the `Product ID` as the unique identifier.
+- This ensured that no product was listed more than once and that each row maintained data consistency.
+
+### 🏷️ 2. Cleaned and Shortened Product Names
+- Applied Excel’s `LEFT` function to truncate lengthy product names for easier readability.
+- Used the `PROPER` function to capitalize the first letter of each word.
+
+```excel
+=PROPER(LEFT([@Product_Name], 40))
+
+### 🗂️ 3. Segmented Product Categories
+
+- The `Category` column included **a very long  data name** separated by delimiters such as this (|)  symbol.
+- Used Excel’s **Text to Columns** feature with the appropriate delimiter to split the category string into **subcategories** for easier analysis and filtering.
+
 ## 🔍 Analysis Performed
 
 The analysis was carried out in **Microsoft Excel** using a combination of:
