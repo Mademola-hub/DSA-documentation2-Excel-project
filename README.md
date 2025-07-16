@@ -20,7 +20,7 @@
   - [12. Products with Fewer than 1,000 Reviews](#12-how-many-products-have-fewer-than-1000-reviews)
   - [13. Top Discounted Categories](#13-which-categories-have-products-with-the-highest-discounts)
   - [14. Top 5 Products by Rating and Reviews](#14-identify-the-top-5-products-in-terms-of-rating-and-number-of-reviews-combined)
-- [📦 Deliverables](#-deliverables)
+- [📦 Deliverables](https://github.com/Mademola-hub/DSA-documentation2-Excel-project/blob/main/README.md#-deliverables)
 
 # DSA-documentation2-Excel-project
 This is my first project when I started learning data Analysis, with the incubator hub
@@ -477,6 +477,8 @@ It highlights strong performance of key products in the dataset.
 - Amazon case study final.csv
 
 [Download here ](https://drive.google.com/drive/folders/17feFYJDSVt9AKOJYwVxN40CvtZrHEeh5)
+
+[Back to Top](https://github.com/Mademola-hub/DSA-documentation2-Excel-project#-table-of-contents)
 
 
 
