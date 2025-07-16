@@ -478,6 +478,12 @@ It highlights strong performance of key products in the dataset.
 
 [Download here ](https://drive.google.com/drive/folders/17feFYJDSVt9AKOJYwVxN40CvtZrHEeh5)
 
+
+## 🙋 About the Analyst
+**Matthew Ademola Oluwatosin**  
+**Aspiring Data Analyst**
+
+
 [Back to Top](https://github.com/Mademola-hub/DSA-documentation2-Excel-project#-table-of-contents)
 
 
