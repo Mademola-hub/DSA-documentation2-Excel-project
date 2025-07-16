@@ -49,10 +49,13 @@ According to the dataset documentation:
 
 ### 🗂️ 3. Segmented Product Categories
 
+
 - The `Category` column included **a very long  data name** separated by delimiters such as this (|)  symbol.
 - Used Excel’s **Text to Columns** feature with the appropriate delimiter to split the category string into **subcategories** for easier analysis and filtering.
+- 
 
 ## 🔍 Analysis Performed
+
 
 The analysis was carried out in **Microsoft Excel** using a combination of:
 
@@ -63,7 +66,8 @@ The analysis was carried out in **Microsoft Excel** using a combination of:
 
 Each of the following 14 tasks was answered using one or more of these tools:
 
-## 1. Average Discount by Product Category 
+## 1. Average Discount by Product Category
+
    → Pivot table to calculate the average discount percentage per category i inserted the category on the row while i averaged the discount percentage .
    
    <img width="620" height="264" alt="Screenshot 2025-07-16 161757" src="https://github.com/user-attachments/assets/fbea659a-4dcb-4b6b-aff9-80120340b030" />
@@ -73,6 +77,7 @@ Each of the following 14 tasks was answered using one or more of these tools:
    <img width="749" height="460" alt="image" src="https://github.com/user-attachments/assets/03a02f18-5469-40e8-8ee2-8112a3e0a0dc" />
    
   **📉 Insights from Discount Analysis**
+  
 - **Home Improvement** products receive the **highest average discount** at **57.5%**, making it the most heavily discounted category overall.
 - **Computers & Accessories** and **Health & Personal Care** also show strong discount strategies, both averaging around **53%**.
 - In contrast, **Toys & Games** products receive **no discounts at all (0%)**, and **Office Products** only see a small average discount of **12.35%**.
@@ -80,7 +85,9 @@ Each of the following 14 tasks was answered using one or more of these tools:
   → This reveals that while some categories are aggressively priced to drive sales, others may be missing promotional opportunities or are positioned as premium products.
 
 ## 2. How many products are listed under each category?
+
   **Product Count by Category**
+  
    → Counted unique products using pivot count of `product_name` per `category`.
    <img width="618" height="255" alt="Screenshot 2025-07-16 163416" src="https://github.com/user-attachments/assets/971226ff-6ccb-4044-9707-8dcc4508bb18" />
    
@@ -90,22 +97,27 @@ Each of the following 14 tasks was answered using one or more of these tools:
    ### 📝 Key Insights (In Simple Terms)
 
 #### 📌 Most Products Are in Tech and Home Categories
+
 - **Electronics**, **Home & Kitchen**, and **Computers & Accessories** make up **over 97%** of all products.
 - This shows that most items in this dataset are related to **technology** and **household items**.
 
 #### 📉 Some Categories Have Very Few Products
+
 - Categories like **Office Products** have a few listings (e.g., 31).
 - Others like **Toys & Games**, **Car & Motorbike**, and **Health & Personal Care** have only **1 product each**.
 - These are likely **less popular** or **not a main focus** in this dataset.
 
 #### 💡 This means that
+
 - Amazon seems to **focus more on tech and home products** in this data.
 - They can decide to be areas by which they can improve on :
   - ➕ **New areas to grow** if there’s customer interest.
   - ➖ Or they might **not be important right now**, depending on how well those products sell.
   - 
 ## 3. What is the total number of reviews per category?
+
  **Total Reviews by Category**  
+ 
    → Summed `rating_count` in pivot to get total reviews per category.
    
    <img width="617" height="266" alt="Screenshot 2025-07-16 165049" src="https://github.com/user-attachments/assets/40fd3f64-74b9-459a-9585-ba80c50a933d" />
@@ -136,9 +148,11 @@ Each of the following 14 tasks was answered using one or more of these tools:
 - Less feedback means it's harder for companies to learn what people like or dislike.
 
 **🔍 Summary**
+
 Most of the **customer feedback** in this dataset is about **Electronics**, **Computers**, and **Home products**. These are the **most active** categories where people are talking, buying, and reviewing the most.
 
 ## 4. Which products have the highest average ratings?
+
 **Top-Rated Products**  
    → Sorted products by highest `rating` and visualized using Line with Marker chart .
    
@@ -153,6 +167,7 @@ Most of the **customer feedback** in this dataset is about **Electronics**, **Co
 - ✅ This suggests that these products are doing an excellent job of **meeting or even exceeding customer expectations**.
 
 ## 5. What is the average actual price vs the discounted price by category?
+
  **Average Actual Price vs. Discounted Price (by Category)**  
    → Compared averages using pivot and illustrated with a **clustered column chart**.
 
@@ -182,6 +197,7 @@ Amazon uses **discounting as a regular strategy** to make products more affordab
 
 
 ## 6. Which products have the highest number of reviews?
+
  **Most Reviewed Products**  
    → Identified products with the most `rating_count`, visualized in a bar chart.
    
@@ -205,11 +221,13 @@ A few products in the dataset have an **extremely high number of customer review
   ✅ This product has **more than 360,000 reviews**.
 
 #### 📝 Key Insight:
+
 These products are not only **best-sellers**, but they also generate a **huge amount of customer feedback**.  
 ✅ A high number of reviews builds **trust and credibility** with new buyers.  
 ✅ It also provides **rich insights into customer satisfaction**, helping brands improve and market more effectively.
 
 ## 7. How many products have a discount of 50% or more?
+
 **How many products have a discount of 50% or more?**
 
 To identify products with a discount of 50% or more, I added a new column titled `High Discount` with the following formula:
@@ -236,9 +254,10 @@ This shows that there are 608 products that have a discount of 50% or more.
 
 <img width="582" height="66" alt="Screenshot 2025-07-16 174832" src="https://github.com/user-attachments/assets/21ed4315-b45a-4b80-9f14-c54d0d3dfaec" />
 
-## 8. What is the distribution of product ratings (e.g., how many products are rated 3.0,
-4.0, etc.)
+## 8. What is the distribution of product ratings (e.g., how many products are rated 3.0, 4.0, etc.)
+
  **Rating Distribution (e.g., 3.0, 4.0, etc.)**  
+ 
    → counted the product name by category and displayed using a  **column chart** to show distribution.
    
 <img width="435" height="445" alt="Screenshot 2025-07-16 175941" src="https://github.com/user-attachments/assets/3c9e218a-9b5b-4b3b-bbc9-66344ef95f4b" />
@@ -246,10 +265,12 @@ This shows that there are 608 products that have a discount of 50% or more.
 <img width="752" height="465" alt="image" src="https://github.com/user-attachments/assets/5b092460-9294-408c-b8fb-e64398e4dbaa" />
 
 #### 📝 Key Insight:
+
 The product ratings are mostly high, with the most common ratings falling between 4.1 and 4.3. There are very few products with ratings below 3.0 or above 4.8, and only a single product has a rating of 0.
 
 
 ## 9.What is the total potential revenue (actual_price × rating_count) by category?
+
  **Total Potential Revenue by Category**  
    → Calculated `actual_price × rating_count` in a new column, summed in pivot and displayed using a clusterded column chart .
 
@@ -275,7 +296,9 @@ On the other hand, smaller categories like **Car & Motorbike**, **Health & Perso
 ✅ **Conclusion:** Focusing on the top categories can have the **biggest impact** on business growth and profitability.
 
 ## 10. What is the number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500)?
+
 **Product Count per Price Bucket**  
+
     → Created buckets: `<₹200`, `₹200–₹500`, `>₹500` , counted the product id and used a **bar chart** to visualize counts.
    I created a price bucket where i used the if function to segregate price in a point or range value.
     ```=IF([@[discounted_price]]<200,"<₹200",IF([@[discounted_price]]<500,"₹200–₹500",">₹500"))
@@ -298,12 +321,14 @@ On the other hand, smaller categories like **Car & Motorbike**, **Health & Perso
 Most of the items in this dataset fall into the **higher price range** (above ₹500).  
 ✅ This suggests that the dataset focuses more on **mid to high-end products**, rather than budget items.
 
-## 11.How does the rating relate to the level of discount?
+## 11. How does the rating relate to the level of discount?
+
 **Relationship Between Rating and Discount**
 
 ### 🔧 Steps
 
  ## A. Created Discount Buckets
+
    Added a new column to group `Discount%` into ranges like **0–10%**, **11–20%**, ..., **91–100%**.
 
    **Formula used in Excel:**
@@ -344,6 +369,7 @@ In fact, deeper discounts may even lead to **slightly higher ratings**, as custo
 
 
 ## 12. How many products have fewer than 1,000 reviews?
+
 **Products with Fewer than 1,000 Reviews**   
     Used the following Excel formula to count how many products had fewer than 1,000 reviews:
 
@@ -356,6 +382,7 @@ In fact, deeper discounts may even lead to **slightly higher ratings**, as custo
 <img width="723" height="48" alt="Screenshot 2025-07-16 184529" src="https://github.com/user-attachments/assets/c7626b89-541d-467f-95be-10eb0ddecc4a" />
 
 ## 13. Which categories have products with the highest discounts?
+
 **Top Discounted Categories**  
     → i sorted the discount percentage column and picked the top 10 and i visualize using a column chart.
     
@@ -365,6 +392,7 @@ In fact, deeper discounts may even lead to **slightly higher ratings**, as custo
 
 
 ## 14. Identify the top 5 products in terms of rating and number of reviews combined.
+
  **Top 5 Products by Rating + Review Volume**  
  
     To rank products based on both **rating** and **number of reviews**, I created a new column named weighted using the formula below:
@@ -392,6 +420,7 @@ I then use a column chart to visualize
 ### 🔍 Key Insight: Dominance of a Few Products
 
 **1. Dominance of Specific Products**  
+
 The top 5 spots are almost entirely occupied by two product lines:  
 - **Amazon Basics HDMI cables**  
 - **Boat Bassheads earphones**
@@ -399,12 +428,14 @@ The top 5 spots are almost entirely occupied by two product lines:
 These items are both **highly rated** and have **large numbers of reviews**, indicating strong popularity and customer satisfaction.
 
 **2. Reliable Favorites**  
+
 These products are consistent top performers. Their high volume of positive feedback suggests they are:
 - Reliable
 - Offer great value
 - Satisfy a common customer need effectively
 
 **3. Strong Brand Performance**  
+
 This reflects positively on both brands:
 - ✅ **Amazon Basics**  
 - ✅ **Boat Bassheads**  
@@ -414,6 +445,7 @@ It highlights strong performance of key products in the dataset.
 
 
 ## 📦 Deliverables
+
 - Amazon case study. csv csv [Download here ]()
 - Amazon case study final.csv [Download here ]()
 
