@@ -300,8 +300,11 @@ On the other hand, smaller categories like **Car & Motorbike**, **Health & Perso
 **Product Count per Price Bucket**  
 
     → Created buckets: `<₹200`, `₹200–₹500`, `>₹500` , counted the product id and used a **bar chart** to visualize counts.
+    
    I created a price bucket where i used the if function to segregate price in a point or range value.
-    ```=IF([@[discounted_price]]<200,"<₹200",IF([@[discounted_price]]<500,"₹200–₹500",">₹500"))
+   
+  ```excel
+    =IF([@[discounted_price]]<200,"<₹200",IF([@[discounted_price]]<500,"₹200–₹500",">₹500"))
 ```
 
 <img width="1366" height="768" alt="Screenshot 2025-07-16 181956" src="https://github.com/user-attachments/assets/9679173a-0aa5-4763-b65e-15818161dd72" />
