@@ -94,7 +94,7 @@ Each of the following 14 tasks was answered using one or more of these tools:
    I used the column chart to visualize the pivot table 
    <img width="753" height="465" alt="image" src="https://github.com/user-attachments/assets/d35f444e-a784-4883-aa03-d2fbe010ed66" />
 
-   ### 📝 Key Insights (In Simple Terms)
+   ### 📝 Key Insights 
 
 #### 📌 Most Products Are in Tech and Home Categories
 
