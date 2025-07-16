@@ -449,8 +449,9 @@ It highlights strong performance of key products in the dataset.
 
 ## 📦 Deliverables
 
-- Amazon case study. csv csv [Download here ]()
-- Amazon case study final.csv [Download here ]()
+- Amazon case study. csv
+- Amazon case study final.csv
+-   [Download here ](https://drive.google.com/drive/folders/17feFYJDSVt9AKOJYwVxN40CvtZrHEeh5)
 
 
 
