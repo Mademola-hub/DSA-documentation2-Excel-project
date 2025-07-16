@@ -1,4 +1,4 @@
-<img width="630" height="232" alt="image" src="https://github.com/user-attachments/assets/ad4238da-ef2d-4a06-b17e-b1e161c2ae71" /># DSA-documentation2-Excel-project
+# DSA-documentation2-Excel-project
 This is my first project when I started learning data Analysis, with the incubator hub
 
 ## Project Topic : 🏬Amazon Product Review Analysis
@@ -378,6 +378,8 @@ It highlights strong performance of key products in the dataset.
 
 
 ## 📦 Deliverables
+- Amazon case study. csv csv [Download here ]()
+- Amazon case study final.csv [Download here ]()
 
 
 
