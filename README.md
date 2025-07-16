@@ -1,3 +1,27 @@
+## 📄 Table of Contents
+
+- [🏬 Amazon Product Review Analysis](#-amazon-product-review-analysis)
+- [📁 Project Overview](#-project-overview)
+- [🧾 Data Sources](#-data-sources)
+- [🧹 Amazon Product Data Cleaning](#-amazon-product-data-cleaning)
+- [🔧 Data Cleaning Process using Excel](#-data-cleaning-process-using-excel)
+- [🔍 Analysis Performed](#-analysis-performed)
+  - [1. Average Discount by Product Category](#1-average-discount-by-product-category)
+  - [2. Product Count by Category](#2-how-many-products-are-listed-under-each-category)
+  - [3. Total Reviews by Category](#3-what-is-the-total-number-of-reviews-per-category)
+  - [4. Top-Rated Products](#4-which-products-have-the-highest-average-ratings)
+  - [5. Average Actual vs Discounted Price by Category](#5-what-is-the-average-actual-price-vs-the-discounted-price-by-category)
+  - [6. Most Reviewed Products](#6-which-products-have-the-highest-number-of-reviews)
+  - [7. Products with ≥50% Discount](#7-how-many-products-have-a-discount-of-50-or-more)
+  - [8. Distribution of Product Ratings](#8-what-is-the-distribution-of-product-ratings-eg-how-many-products-are-rated-30-40-etc)
+  - [9. Total Potential Revenue by Category](#9what-is-the-total-potential-revenue-actual_price--rating_count-by-category)
+  - [10. Product Count per Price Bucket](#10-what-is-the-number-of-unique-products-per-price-range-bucket-eg-200₹200500₹500)
+  - [11. Relationship Between Rating and Discount](#11-how-does-the-rating-relate-to-the-level-of-discount)
+  - [12. Products with Fewer than 1,000 Reviews](#12-how-many-products-have-fewer-than-1000-reviews)
+  - [13. Top Discounted Categories](#13-which-categories-have-products-with-the-highest-discounts)
+  - [14. Top 5 Products by Rating and Reviews](#14-identify-the-top-5-products-in-terms-of-rating-and-number-of-reviews-combined)
+- [📦 Deliverables](#-deliverables)
+
 # DSA-documentation2-Excel-project
 This is my first project when I started learning data Analysis, with the incubator hub
 
